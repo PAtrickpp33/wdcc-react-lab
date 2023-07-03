@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left {
+    width: 40%;
+    overflow-y: auto;
+    height: 100vh;
+    
+  }
+  
+  .right {
+    width: 60%;
+    overflow-y: auto;
+    height: 100vh;
+    box-sizing: border-box; /* Make sure the padding is included in the total width and height */
+    padding: 50px; /* Add some padding */
+  }
+  
+  .squareWindow {
+    height: 70vh; /* Set a fixed height */
+    width: 70vh; /* Set the width equal to height to make a square */
+    overflow: auto; /* Enable scrolling when content exceeds the window size */
+    margin: auto; /* Center the square window */
+    border: 5px solid #8e1b1b; /* Add border */
+  }
+  
+  
+  
